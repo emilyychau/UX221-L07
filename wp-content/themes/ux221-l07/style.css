@@ -6,3 +6,21 @@ Template:       twentytwentyfour
 
 (optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
 */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+  --paragraph-font: 'Montserrat', sans-serif;
+	--header-footer-bg: #FAF0DC;
+}
+
+header, footer {
+  background-color: var(--header-footer-bg);
+}
+
+p {
+  font-family: var(--paragraph-font);
+  font-weight: 400; 
+  color: #36454F;
+}

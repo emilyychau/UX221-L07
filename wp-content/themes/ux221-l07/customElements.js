@@ -14,12 +14,12 @@ class TwoSidedMarket extends HTMLElement {
         this.style.justifyContent = 'center';
 		const items = this.querySelectorAll('.item');
         items.forEach(item => {
-			item.style.fontFamily = 'Montserrat, sans-serif';
             item.style.border = '2px solid black';
             item.style.margin = '2px';
             item.style.padding = '4px';
 			item.style.borderRadius = '5px';
-            item.style.display = 'inline-block'; // alignment
+            item.style.display = 'inline-block'; 
+			item.style.fontFamily = 'Montserrat, sans-serif';
         });
     }
 }

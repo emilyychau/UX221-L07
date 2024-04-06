@@ -20,7 +20,7 @@ footer {
   background-color: var(--footer-bg);
 }
 
-footer, p {
+footer, body, p {
   font-family: var(--paragraph-font);
   font-weight: 400; 
   color: #36454F;

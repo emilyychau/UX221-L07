@@ -12,12 +12,12 @@ Template:       twentytwentyfour
 
 :root {
 	--paragraph-font: 'Montserrat', sans-serif;
-	--header-footer-bg: #FAF0DC;
+	--footer-bg: #FAF0DC;
 	--footer-font: 'Montserrat', sans-serif;
 }
 
-header, footer {
-  background-color: var(--header-footer-bg);
+footer {
+  background-color: var(--footer-bg);
 }
 
 footer, p {

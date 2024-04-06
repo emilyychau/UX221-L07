@@ -11,16 +11,18 @@ Template:       twentytwentyfour
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 :root {
-  --paragraph-font: 'Montserrat', sans-serif;
+	--paragraph-font: 'Montserrat', sans-serif;
 	--header-footer-bg: #FAF0DC;
+	--footer-font: 'Montserrat', sans-serif;
 }
 
 header, footer {
   background-color: var(--header-footer-bg);
 }
 
-p {
+footer, p {
   font-family: var(--paragraph-font);
   font-weight: 400; 
   color: #36454F;
 }
+
